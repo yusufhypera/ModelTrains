@@ -2,7 +2,15 @@ Installation command for necessary dependencies:
 
 - pip install -r requirements.txt
 
-Our noisy dataset path: dataset/images
+How to run ? 
 
-for the comparing file noisy and denosied datas: evaluate.py 
+For the train: 
+
+- python train.py (unet)
+- python autoencoder.py (autoencoder)
+
+
+Evaluate for denoising performance: 
+
+- python evaluate_denoising.py
 
